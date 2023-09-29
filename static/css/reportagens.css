@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div-pai {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    margin: 20vh 20vh 0vh;
+}
+
+.div-mae {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.div-conteudo {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    gap: 8rem;
+    width: 35vw;
+}
+
+.imagem {
+    width: 362px;
+    height: 218px;
+}

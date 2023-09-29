@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 7fr, 1fr;
+    grid-template-areas: "header" "main" "footer";
+}
+
+header {
+    width: calc(100vw - 4rem);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 11.11vh;
+    padding: 0px 2rem;
+    background-color: #2fa0d0;
+    grid-area: header;
+}
+
+main {
+    min-height: 77.78vh;
+    background-color: #f1f4fe;
+    grid-area: main;
+}
+
+.logo {
+    height: 80%;
+}
+
+.abas-navbar-header {
+    display: flex;
+    gap: 1rem;
+}
+
+.abas-navbar-header>a {
+    font-family: "Inter";
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.negrito {
+    font-weight: 700;
+}
+
+.barra-de-pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 50%;
+    width: calc(25% - 1.5rem);
+    border-radius: 30px;
+    padding-left: 1.5rem;
+    background-color: #f1f4fe;
+}
+
+.barra-de-pesquisa>input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 0px 30px 30px 0px;
+    background-color: transparent;
+}
+
+.barra-de-pesquisa>input::placeholder {
+    position: absolute;
+    bottom: calc(50% - 1rem);
+    font-family: "Poppins";
+    font-size: 1.5rem;
+}
+
+.footer-universal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+footer {
+    height: 11.11vh;
+    background-color: #2fa0d0;
+    gap: 3rem;
+    grid-area: footer;
+}
+
+footer>section {
+    gap: 2rem;
+}
+
+footer>section>div {
+    gap: 0.5rem;
+}
+
+footer>section>div>h6 {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.fale-conosco {
+    font-size: 23px;
+}

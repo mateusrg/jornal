@@ -1,0 +1,213 @@
+#principal {
+    padding: 4vh 7vw;
+    height: 63.8vh;
+}
+
+#linha {
+    height: 48vh;
+    width: 0px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+
+#tudo-exceto-titulos {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#job_opportunity {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-left: 10vw;
+}
+
+#operations_manager {
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    margin-left: 10vw;
+}
+
+#info {
+    width: 30vw;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "linha1-esquerda linha1-direita"
+                         "linha2-esquerda linha2-direita"
+                         "linha3-esquerda linha3-direita";
+    grid-row-gap: 1.5rem;
+}
+
+#habilidades {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "sublinha1-esquerda sublinha1-direita"
+                         "sublinha2-esquerda sublinha2-direita"
+                         "sublinha3-esquerda sublinha3-direita"
+                         "sublinha4-esquerda sublinha4-direita"
+                         "sublinha5-esquerda sublinha5-direita";
+    grid-row-gap: 0.5rem;
+    margin-left: 3rem;
+}
+
+#aux {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linha1-esquerda {
+    grid-area: linha1-esquerda;
+}
+
+#linha1-direita {
+    grid-area: linha1-direita;
+}
+
+#linha2-esquerda {
+    grid-area: linha2-esquerda;
+}
+
+#linha2-direita {
+    grid-area: linha2-direita;
+}
+
+#linha3-esquerda {
+    grid-area: linha3-esquerda;
+}
+
+#linha3-direita {
+    grid-area: linha3-direita;
+}
+
+#sublinha1-esquerda {
+    grid-area: sublinha1-esquerda;
+}
+
+#sublinha1-direita {
+    grid-area: sublinha1-direita;
+
+}
+
+#sublinha2-esquerda {
+    grid-area: sublinha2-esquerda;
+}
+
+#sublinha2-direita {
+    grid-area: sublinha2-direita;
+
+}
+
+#sublinha3-esquerda {
+    grid-area: sublinha3-esquerda;
+}
+
+#sublinha3-direita {
+    grid-area: sublinha3-direita;
+
+}
+
+#sublinha4-esquerda {
+    grid-area: sublinha4-esquerda;
+}
+
+#sublinha4-direita {
+    grid-area: sublinha4-direita;
+
+}
+
+#sublinha5-esquerda {
+    grid-area: sublinha5-esquerda;
+}
+
+#sublinha5-direita {
+    grid-area: sublinha5-direita;
+
+}
+
+#work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#work>h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+#work>p {
+    width: 29.3vw;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+button {
+    height: 7.8vh;
+    width: 13vw;
+    min-height: 84px;
+    min-width: 250px;
+    border: none;
+    border-radius: 60px;
+    background-color: #00b3ff;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+section>div {
+    display: flex;
+    gap: 1.5rem;
+}
+
+section>div>p {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.fa-location-dot {
+    color: #F46262;
+}
+
+.fa-dollar-sign {
+    color: #46B91E;
+}
+
+.fa-gear {
+    color: #808080;
+}
+
+.fa-comment {
+    color: #B5B5B5;
+}
+
+.fa-crown {
+    color: #CD9833;
+}
+
+.fa-money-check-dollar {
+    color: #2BA230;
+}
+
+.fa-hand-fist {
+    color: #F1C27D;
+}
+
+.fa-puzzle-piece {
+    color: #3786FC;
+}

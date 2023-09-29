@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.imagem {
+    height: 50vh;
+    width: 30vw;
+}
